@@ -28,6 +28,54 @@ Project
 const data = {
     "projects": [
         {
+            "page_id": 105,
+            "metaData": 
+            {
+                "projName": "ForumX",
+                "projNameTwo": "White-Label",
+                "projBrief": "Brief:",
+                "projBriefContent": "Fullstack project, designed to fix forum layouts and unify them.",
+                "projRole": "Role:",
+                "projRoleContent": "Fullstack Developer",
+                "projProcesses": "Processes:",
+                "projProcessesContent": "Node.js, Express.js, Joi, Jsonwebtoken, ERD, MSSQL",
+                "projProduct": "Product:",
+                "projProductContent": "Functional forum, different roles, ability to register and login",
+                "mainImage": "assets/images/loginForex.jpg"
+            },
+            "keyFeatures":
+            {
+                "featureOne": "Presentation Tier",
+                "featureTwo": "Logic Tier",
+                "featureThree": "Data Tier",
+            },
+            "contextData": 
+                {
+                    "setOne": {
+                        "title": "Presentation Tier",
+                        "description": "In the Presentation Tier, we worked with key design principals to develop and establish a white-labeled forum solution. Eventhough the focus of the project was not on design, we wanted to achieve a uniformed forum layout so that users can easily adapt to the layout if our solution is used by multiple companies/businesses.",
+                        "imageOne": "assets/images/postsForex.jpg",
+                        "imageTwo": "assets/images/profileForex.jpg",
+                        "imageThree": "assets/images/registerForex.jpg"
+                    },
+                    "setTwo": {
+                        "title": "Logic Tier",
+                        "description": "We worked with Express.js and object oriented development to establish the logic or so called back-end of our application. 3 classes and 10 main routes were created so that our API could function the way we wanted it to. Our solution for this tier, wasn't optimal and there is room for improvement, but we now have the experience to understand this and prepare future projects with better route handling.",
+                        "imageOne": "assets/images/validationForex.jpg",
+                        "imageTwo": "assets/images/modelsForex.jpg",
+                        "imageThree": "assets/images/routesForex.jpg"
+                    },
+                    "setThree": {
+                        "title": "Data Tier",
+                        "description": "We started off by designing our ERD (Entity Relationship Diagram) and establishing each of the tables and properties. Through user input, we are able to update user information as well as post information. Right now, the application lacks proper date handling as well as image handling, however, with future projects we will work towards accomplishing this.",
+                        "imageOne": "assets/images/diagForex.jpg",
+                        "imageTwo": "assets/images/tablesForex.jpg",
+                        "imageThree": "assets/images/updateForex.jpg"
+                    }
+                }
+            
+        },
+        {
             "page_id": 100,
             "metaData": 
             {
